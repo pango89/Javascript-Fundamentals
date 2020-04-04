@@ -3,7 +3,7 @@ let person = {
   lastname: "Goyal",
 
   printFullname: function () {
-    console.log(this.firstname, " ", this.lastname);
+    console.log(this.firstname, this.lastname);
   },
 };
 

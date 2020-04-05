@@ -9,3 +9,5 @@ bind() - Creates a new function that, when called, has its this keyword set to t
 Polyfill for bind() - Create your own implementation for bind()
 
 Function Currying - Can be achieved using bind() or closures.
+
+Debouncing - Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page.

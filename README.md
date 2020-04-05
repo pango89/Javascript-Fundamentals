@@ -12,4 +12,5 @@ Function Currying - Can be achieved using bind() or closures.
 
 Debouncing - Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page.
 
-async/defer
+async/defer - 
+![](https://github.com/pango89/Javascript-Fundamentals/blob/master/Fundamentals/async-defer.png)

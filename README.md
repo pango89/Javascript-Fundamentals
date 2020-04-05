@@ -20,3 +20,5 @@ Event Capturing/Event Trickling - Event listeners are propagated from parent to 
 Event Bubbling - Event listeners are propagated from child to parent direction in DOM tree/hierarchy. Bubbling is the 2nd phase of event propagation cycle.
 
 Event Delegation - The idea is that if we have a lot of elements handled in a similar way, then instead of assigning a handler to each of them – we put a single handler on their common ancestor.
+
+Implement function sum(a)(b)(c)(d)...() upto any number of parameters.

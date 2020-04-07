@@ -22,3 +22,19 @@ Event Bubbling - Event listeners are propagated from child to parent direction i
 Event Delegation - The idea is that if we have a lot of elements handled in a similar way, then instead of assigning a handler to each of them – we put a single handler on their common ancestor.
 
 Implement function sum(a)(b)(c)(d)...() upto any number of parameters.
+
+Prototype and prototypal inheritance - When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.
+
+Nearly all objects in JavaScript are instances of Object which sits on the top of a prototype chain.
+[arr.__proto__ is Array.Prototype]
+
+[arr.__proto__.__proto__ is Object.Prototype]
+
+[arr.__proto__.__proto__ is null]
+
+Similarly,
+[fun.__proto__ is Object.Prototype]
+
+Cross Origin Resource Sharing - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Throttling - Throttling is a technique in which, no matter how many times the user fires the event, the attached function will be executed only once in a given time interval.
